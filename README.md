@@ -35,7 +35,7 @@ I've hyperlinked the git repos in the table below, so you should just be able to
 | --- | --- |
 | [MSDFGen](https://github.com/Neos-Metaverse/msdfgen) | Run `cmake -B build`, then cd into the 'build' directory and run `make -jN`. The library will end up directly in the build directory. |
 | [RNNoise](https://github.com/Neos-Metaverse/rnnoise) | Run `cmake -B build`, then cd into the 'build' directory and run `make -jN`. The library will end up directly in the build directory. |
-| [Assimp](https://github.com/Neos-Metaverse/assimp) | (Pending successful compilation) |
+| [Assimp](https://github.com/Yellow-Dog-Man/assimp) | Run `cmake -B build`, then cd into the 'build' directory and run `make -jN`. The library will end up in the bin folder of the build directory which you can navigate to by typing `cd ./bin`. |
 
 Once you're done with a build, the library should be in the folder indicated for the instruction you followed. Typically these files will end in `.so`. For example: Opus builds a `libopus.so`, and FreeImage will build a `libfreeimage-x.xx.x.so` where `x` corresponds to the version numbers.
 
